@@ -1,0 +1,5 @@
+com\mycompany\moviedatabase\MainApp.class
+com\mycompany\moviedatabase\Movie.class
+com\mycompany\moviedatabase\FXMLController.class
+com\mycompany\moviedatabase\MovieHandeler.class
+com\mycompany\moviedatabase\ConnectionFactory.class

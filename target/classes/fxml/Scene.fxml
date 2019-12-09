@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="484.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.moviedatabase.FXMLController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="Title" layoutX="81.0" layoutY="89.0" prefHeight="25.0" prefWidth="229.0" />
+      <TextField fx:id="Studio" layoutX="81.0" layoutY="125.0" prefHeight="25.0" prefWidth="229.0" />
+      <TextField fx:id="Score" layoutX="81.0" layoutY="157.0" prefHeight="25.0" prefWidth="229.0" />
+      <TextArea fx:id="text_area" layoutX="11.0" layoutY="206.0" prefHeight="200.0" prefWidth="489.0" />
+      <Text layoutX="24.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title:" wrappingWidth="47.44140625" />
+      <Text layoutX="24.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Studio:" />
+      <Text layoutX="24.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
+      <Button fx:id="ShowMovies" layoutX="351.0" layoutY="417.0" mnemonicParsing="false" onAction="#ShowMovies" text="Show Movies!" />
+      <Button fx:id="AddMovie" layoutX="363.0" layoutY="157.0" mnemonicParsing="false" onAction="#AddMovie" text="Add Movie!" />
+      <Button fx:id="SearchButton" layoutX="256.0" layoutY="27.0" mnemonicParsing="false" onAction="#searchMovies" text="Search!" />
+      <TextField fx:id="Search" layoutX="81.0" layoutY="27.0" />
+      <Text layoutX="37.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search:" />
+    </children>
+</AnchorPane>
